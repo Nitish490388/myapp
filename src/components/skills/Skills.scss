@@ -1,0 +1,32 @@
+.container {
+    padding-top: 20px;
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(4,220px);
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    .box {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+        width: 220px;
+        height: 80px;
+        border-radius: 10px;
+        padding: 10px;
+        background-color: #485563;
+        transition: transform 0.2s ease-out;
+
+        .icon {
+            font-size: 2.25rem;
+        }
+    }
+
+    .box:hover {
+        transform: scale(1.08);
+        background: rgb(255, 132, 0);
+        background: linear-gradient(324deg, rgba(255, 132, 0, 1) 33%, rgba(255, 217, 91, 0.9420810560552346) 100%);
+        transition: transform 0.2s ease-out;
+    }
+}

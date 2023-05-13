@@ -1,0 +1,17 @@
+.about {
+    color: white;
+    padding: 50px;
+    p {
+        width: 800px;
+        padding: 10px;
+        line-height: 1.4em;
+    }
+    h2 {
+        padding: 10px;
+    }
+
+    p:hover {
+        background-color: rgb(68, 69, 71);
+        border-radius: 10px;
+    }
+}

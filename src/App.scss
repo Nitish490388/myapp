@@ -1,0 +1,13 @@
+.App {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(32, 32, 32);
+    .nav-bar {
+       width: 100%;
+       position: absolute;
+       bottom: 7px;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+    }
+}

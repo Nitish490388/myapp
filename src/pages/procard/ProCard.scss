@@ -1,0 +1,44 @@
+
+.grid {
+   display: grid;
+   grid-template-columns: repeat(2, 415px);
+
+    .card {
+            width: 400px;
+            height: 350px;
+            border-radius: 10px;
+            padding: 10px;
+            color: whitesmoke;
+            background-color: rgb(67, 67, 67);
+            transition: .3s transform ease;
+    
+            .img {
+                border-radius: 10px;
+                width: 100%;
+                height: 55%;
+                overflow: hidden;
+                margin-bottom: 10px;
+    
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+            }
+    
+            h3 {
+                font-size: 30px;
+                padding: 5px;
+            }
+    
+            p {
+                padding: 5px;
+                line-height: 1.4em;
+            }
+        }
+    
+        .card:hover {
+            transform: scale(1.04);
+            transition: .3s transform ease;
+        }
+}

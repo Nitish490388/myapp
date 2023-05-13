@@ -1,0 +1,34 @@
+.Navbar {
+    width: 320px;
+    list-style: none;
+    background-color: #ffffff56;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.4rem;
+    gap: 12px;
+    padding: 10px;
+    border-radius: 10px;
+
+    li {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 45px;
+        width: 45px;
+        border-radius: 50%;
+        background-color: #ffffff;
+        color: black;
+        transition: transform 0.25s ease-out;
+
+        .link {
+            color: black;
+        }
+    }
+
+    li:hover {
+        background-color: #ffffff;
+        transform: scale(1.2, 1.2);
+        transition: transform 0.25s ease-out;
+    }
+}
